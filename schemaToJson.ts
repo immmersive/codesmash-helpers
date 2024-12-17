@@ -1,6 +1,6 @@
 import { parse, buildASTSchema, GraphQLObjectType, GraphQLSchema, GraphQLNamedType } from 'graphql';
 
-// Example String
+// Example Schema
 const schemaString = `
 type University {
     universityId: ID!
@@ -61,6 +61,5 @@ const schemaToJson = (schema: GraphQLSchema) => {
     return result;
 };
 
-// Convert the schema and log the JSON result
 const jsonSchema = schemaToJson(schema);
 console.log(JSON.stringify(jsonSchema, null, 2));
