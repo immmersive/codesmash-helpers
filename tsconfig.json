@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
-    "target": "ES2020",            // Ensures compatibility with modern JS
-    "module": "CommonJS",          // Aligns with Node.js module system
-    "lib": ["ES2020", "DOM"],      // Adds modern JS and browser support
-    "strict": true,                // Enables strict type checking
-    "esModuleInterop": true,       // Ensures compatibility with CommonJS modules
-    "skipLibCheck": true,          // Skips type checking for libraries
-    "resolveJsonModule": true,     // Allows importing JSON files
-    "outDir": "./dist"             // Specifies output directory
+    "target": "ES2020",
+    "module": "CommonJS",
+    "lib": ["ES2020", "DOM"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "outDir": "./dist"
   },
   "include": ["**/*.ts"],
   "exclude": ["node_modules"]
